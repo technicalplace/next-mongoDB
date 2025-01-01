@@ -11,3 +11,5 @@ export async function GET(request) {
     return NextResponse.json({ message: 'エラー' });
   }
 }
+
+export const revalidate = 0;
